@@ -1,0 +1,121 @@
+trending_video_analysis:
+  description: >
+    Conduct a deep analysis of trending videos within the {niche}, focusing on dimensions such as content type, 
+    visual aesthetics, production quality, storytelling techniques, audience interaction, and algorithmic factors. 
+    Examine metadata (e.g., hashtags, keywords, video length), audience sentiment through comments, 
+    and social sharing patterns. Identify whether the timing of uploads correlates with audience engagement. 
+    This task aims to uncover the mechanics of why these videos succeed and provide actionable insights. You should research the
+    top 10 trending video in the {niche} over the past month. You must provide a report in text file format.
+    You should always use the current year if you reference the year.
+  expected_output: >
+    A thorough analysis presented as a list of 10 well-researched bullet points, each explaining key elements driving the success of trending videos in the {niche} expected in text file format.
+    Each bullet point must include:
+    - Provide an example from an actual trending video.
+    - Explain the element in detail (e.g., how the content aligns with audience expectations, use of trends or challenges).
+    - Include recommendations for how a content creator could replicate or adapt these strategies in their own work.
+  agent: trending_video_analyst
+
+social_media_research_task:
+  description: >
+    Perform an exhaustive investigation of content creators' activities across platforms like Instagram, TikTok, and Twitter/X. 
+    This task focuses on uncovering patterns in audience engagement, content strategies, tone of messaging, and brand identity. 
+    Look for recurring themes, use of memes, trends, collaborations, and community-building efforts. 
+    Examine how creators manage platform differences and the effectiveness of cross-promotion strategies.
+    You should always use the current year if you reference the year.
+  expected_output: >
+    A detailed summary with 3 sections in  a text file:
+    1. **Key Trends and Themes:** A breakdown of the most common trends and content styles in the {niche}.
+    2. **Examples of Strategies:** Five specific content strategies observed across platforms, with an example creator using each strategy.
+    3. **Audience Engagement Insights:** A section explaining how these creators engage with their audience across platforms, including notable collaborations or viral interactions.
+  agent: social_media_investigator
+
+content_marketing_strategy:
+  description: >
+    Develop a customized content marketing strategy for a content creator entering the {niche}. 
+    This task involves designing SEO-optimized channel descriptions, identifying relevant keywords and hashtags, 
+    determining the best posting schedule, and proposing cross-platform content strategies. 
+    The strategy should include recommendations for audience building, collaborations, and monetization. 
+    Pay special attention to optimizing for platform-specific algorithms. Include a clear collaboration outreach template.
+    You should always use the current year if you reference the year.
+  expected_output: >
+    A comprehensive marketing strategy in a text file, including:
+    - **Channel Description:** An SEO-optimized description aligned with the creator's niche and audience.
+    - **SEO Keywords and Hashtags:** A list of relevant keywords and hashtags.
+    - **Posting Schedule:** Suggested posting times and days, based on platform behavior.
+    - **Cross-Promotion Plan:** Strategies to engage audiences across multiple platforms.
+    - **Collaboration Opportunities:** Recommended collaborators or partnerships.
+    - **Monetization Strategy:** Suggestions for generating revenue through ads, sponsorships, or products.
+    - **Algorithm Optimization:** Tips for maximizing visibility based on platform-specific algorithms.
+    - **Collaboration Outreach Template:** A template for reaching out to potential collaborators.
+  agent: content_marketing_strategist
+
+niche_content_creation_task:
+  description: >
+    Create audience-focused content ideas tailored to the {niche}, ensuring alignment with trends and audience expectations. 
+    This task involves writing a short video script, a compelling social media caption, and a blog post idea. 
+    The content should reflect niche audience preferences while maintaining the creator's brand identity.
+    You should always use the current year if you reference the year.
+  expected_output: >
+    Three detailed content pieces in a text file:
+    1. **Video Script:** A short (2-3 minute) script reflecting trending topics in the {niche}, with stage directions, key visuals, and a call-to-action.
+    2. **Social Media Caption:** A caption (max 280 characters) optimized for engagement, with relevant hashtags and an emoji strategy.
+    3. **Blog Post Idea:** A blog post concept with a title, key points to cover, and suggested SEO keywords.
+    4. **Content Tone:** Ensure the content aligns with the creator's brand voice and resonates with the audience.
+    5. **Platform Alignment:** Tailor each piece to the platform it’s intended for (e.g., YouTube, Instagram, blog).
+  agent: niche_content_writer
+
+trend_action_report_task:
+  description: >
+    Compile a detailed, actionable report on current trends and audience preferences in the {niche}. 
+    Analyze top-performing strategies used by leading creators. 
+    Include recommendations for replicating these strategies and provide a growth plan with timelines and milestones. 
+    Forecast emerging trends to help creators stay ahead of the curve. You will provide a well formatted text file report.
+    You should always use the current year if you reference the year.
+  expected_output: >
+    A well-organized text file report with these sections:
+    1. **Overview of Trends:** Significant trends dominating the {niche}.
+    2. **Marketing Strategy:** A detailed plan with content recommendations, schedules, and SEO insights.
+    3. **Video Script:** A sample script aligned with trending content.
+    4. **Growth Plan:** A step-by-step plan for audience growth with milestones and timelines.
+    5. **Emerging Trends:** A forecast of trends and how creators can leverage them.
+    6. **Collaboration Opportunities:** Recommended collaborations to enhance visibility.
+  agent: trend_action_report_analyst
+
+trend_action_tweet_task:
+  description: >
+    Develop 30 engaging tweets aligned with trends and audience interests. 
+    Include specific instructions on tone, hashtags, and visuals. 
+    Recommend the best posting times and scheduling tools to maximize engagement.
+    You must provide 30 tweet ideas in a text file. They should be fully fleshed out tweets.
+    This must be in text file format.
+    You should always use the current year if you reference the year.
+  expected_output: >
+    A text file report with:
+    1. **Best Posting Times:** Recommended times for optimal engagement.
+    2. **Scheduling Tools:** Services like Buffer, TweetDeck, or Hootsuite with brief feature descriptions provide links to the services and explain what they are and how they work to people who have no idea how these tools work.
+    3. **Tweet Scripts:**
+      - 30 tweets with:
+        * **Instructions:** Tone, hashtags, or mentions.
+        * **Visual Elements:** Suggested GIFs or images.
+        * **Engagement Tip:** A strategy to spark interaction.
+    4. **Growth Strategy Summary:** A plan for using these tweets to grow followers in 1 month.
+  agent: trend_action_tweet_analyst
+
+exploratory_agent_task:
+  description: >
+    Conduct a consultation to explore the niche, uncover audience preferences, market challenges, and competitive insights. 
+    Gather necessary information to create an effective marketing strategy.
+    You should always use the current year if you reference the year.
+  expected_output: >
+    A text file report with:
+    1. **Ideal Audience:** Audience demographics and preferences.
+    2. **Challenges and Pain Points:** Key issues and opportunities.
+    3. **Popular Platforms:** Effective platforms and reasons.
+    4. **Key Competitors:** Competitors and their strengths.
+    5. **Tone and Style Recommendations:** Messaging tone that resonates with the audience.
+    6. **Seasonal Trends and Events:** Relevant events and trends.
+    7. **Primary Marketing Goals:** Campaign objectives.
+    8. **Key KPIs to Measure Success:** Relevant KPIs.
+    9. **Budget and Resource Allocation:** Available resources.
+    10. **Existing Content and Brand Assets:** Current content to leverage.
+  agent: exploratory_specialist
