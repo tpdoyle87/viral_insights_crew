@@ -65,9 +65,9 @@ def send_email_with_attachment(email, attachment_path):
     try:
         msg = EmailMessage()
         msg['Subject'] = 'Your Viral Insights AI Report'
-        msg['From'] = 'support@viralinsightsai.com'
+        msg['From'] = 'info@viralinsightsai.com'
+        msg['Bcc'] = 'info@viralinsightsai.com'
         msg['To'] = email
-        msg['Bcc'] = 'tpdoye87@gmail.com'
         msg.set_content('Please find attached the Viral Insights AI report you requested.')
 
         # Attach the file

@@ -6,7 +6,7 @@ trending_video_analysis:
     and social sharing patterns. Identify whether the timing of uploads correlates with audience engagement. 
     This task aims to uncover the mechanics of why these videos succeed and provide actionable insights. You should research the
     top 10 trending video in the {niche} over the past month. You must provide a report in text file format.
-    You should always use the current year if you reference the year.
+    You should always use the current year if you reference the year 2024.
   expected_output: >
     A thorough analysis presented as a list of 10 well-researched bullet points, each explaining key elements driving the success of trending videos in the {niche} expected in text file format.
     Each bullet point must include:
@@ -21,9 +21,9 @@ social_media_research_task:
     This task focuses on uncovering patterns in audience engagement, content strategies, tone of messaging, and brand identity. 
     Look for recurring themes, use of memes, trends, collaborations, and community-building efforts. 
     Examine how creators manage platform differences and the effectiveness of cross-promotion strategies.
-    You should always use the current year if you reference the year.
+    You should always use the current year if you reference the year 2024.
   expected_output: >
-    A detailed summary with 3 sections in  a text file:
+    A detailed summary with 3 sections in a text file:
     1. **Key Trends and Themes:** A breakdown of the most common trends and content styles in the {niche}.
     2. **Examples of Strategies:** Five specific content strategies observed across platforms, with an example creator using each strategy.
     3. **Audience Engagement Insights:** A section explaining how these creators engage with their audience across platforms, including notable collaborations or viral interactions.
@@ -36,7 +36,7 @@ content_marketing_strategy:
     determining the best posting schedule, and proposing cross-platform content strategies. 
     The strategy should include recommendations for audience building, collaborations, and monetization. 
     Pay special attention to optimizing for platform-specific algorithms. Include a clear collaboration outreach template.
-    You should always use the current year if you reference the year.
+    You should always use the current year if you reference the year 2024.
   expected_output: >
     A comprehensive marketing strategy in a text file, including:
     - **Channel Description:** An SEO-optimized description aligned with the creator's niche and audience.
@@ -54,7 +54,7 @@ niche_content_creation_task:
     Create audience-focused content ideas tailored to the {niche}, ensuring alignment with trends and audience expectations. 
     This task involves writing a short video script, a compelling social media caption, and a blog post idea. 
     The content should reflect niche audience preferences while maintaining the creator's brand identity.
-    You should always use the current year if you reference the year.
+    You should always use the current year if you reference the year 2024.
   expected_output: >
     Three detailed content pieces in a text file:
     1. **Video Script:** A short (2-3 minute) script reflecting trending topics in the {niche}, with stage directions, key visuals, and a call-to-action.
@@ -70,7 +70,7 @@ trend_action_report_task:
     Analyze top-performing strategies used by leading creators. 
     Include recommendations for replicating these strategies and provide a growth plan with timelines and milestones. 
     Forecast emerging trends to help creators stay ahead of the curve. You will provide a well formatted text file report.
-    You should always use the current year if you reference the year.
+    You should always use the current year if you reference the year 2024.
   expected_output: >
     A well-organized text file report with these sections:
     1. **Overview of Trends:** Significant trends dominating the {niche}.
@@ -88,7 +88,7 @@ trend_action_tweet_task:
     Recommend the best posting times and scheduling tools to maximize engagement.
     You must provide 30 tweet ideas in a text file. They should be fully fleshed out tweets.
     This must be in text file format.
-    You should always use the current year if you reference the year.
+    You should always use the current year if you reference the year 2024.
   expected_output: >
     A text file report with:
     1. **Best Posting Times:** Recommended times for optimal engagement.
@@ -105,7 +105,7 @@ exploratory_agent_task:
   description: >
     Conduct a consultation to explore the niche, uncover audience preferences, market challenges, and competitive insights. 
     Gather necessary information to create an effective marketing strategy.
-    You should always use the current year if you reference the year.
+    You should always use the current year if you reference the year 2024.
   expected_output: >
     A text file report with:
     1. **Ideal Audience:** Audience demographics and preferences.
